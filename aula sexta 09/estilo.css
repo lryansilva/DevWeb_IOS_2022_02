@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+
+   
+h1{color: blue;
+    border: grey;
+    text-align: center;
+}
+
+#paodequeijo{background-color: midnightblue;}
+
+
+.opa {
+    color: gray;
+    background-color: beige;
+    border: 2px solid yellowgreen;
+}
+
+#primeiro_nome{
+    background-color: brown;
+    text-align: center;
+
+}
+
+#segundonome{
+
+background-color: springgreen;}
