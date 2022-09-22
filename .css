@@ -1,0 +1,71 @@
+@charset  "utf-8" ;
+corpo {
+ font-family :  "Tahoma" , sem serifa;
+ fundo :  # 333 ;
+ cor :  #fff ; _
+}
+
+h2 {
+    text-align : centro;
+}
+
+. coluna {
+    flutuar : esquerda;
+    largura :  50 % ;
+    preenchimento :  8px ; _
+    box-sizing : border-box;
+}
+
+. caixa de preço {
+    fundo :  #fff ; _
+    cor :  # 555 ;
+    tipo de estilo de lista : nenhum;     
+    borda :  1 px sólido # 555 ;
+    margem :  0 ;
+    preenchimento :  0 ;
+}
+
+. caixa de preço . cabeçalho {
+    cor de fundo :  # 111 ;
+    cor :  #fff ; _
+    tamanho da fonte :  25px ;
+}
+
+. caixa de preço . cabeçalho . cabeçalho-verde {
+    fundo :  # 4caf50 ;
+}
+
+. caixa de preço  li {
+    preenchimento :  20px ; _
+    border-bottom :  sólido de 20 px # eee ;
+    text-align : centro;
+}
+
+   . bt {
+    cor de fundo :  # 4caf50 ;
+    borda : nenhuma;
+    cor :  #fff ; _
+    preenchimento :  10px 15px  ; _ _
+    text-align : centro;
+    decoração de texto : nenhuma;
+    tamanho da fonte :  18 px ;
+}
+
+@media ( largura máxima : 768 px ) {
+. coluna   {
+    largura :  100 % ;
+
+}
+
+. baixo {
+    flutuar : esquerda;
+    largura :  25 % ;
+    preenchimento :  8px ; _
+    box-sizing : border-box;
+}
+
+@media ( largura máxima : 768 px ) {
+    . baixo   {
+        largura :  100 % ;
+    }
+    

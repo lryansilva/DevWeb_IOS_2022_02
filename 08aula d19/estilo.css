@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+p:first-child{
+    color: blue;
+}
+
+.mylist li:first{
+    background-color: aquamarine;
+    
+}
+.mylist li:last-child(3){
+    background-color: chartreuse;
+}
+
+#mylist li:last-child{
+    background-color: crimson;
+    
+}
+a :hover{
+    background-color: blueviolet;
+}
+.paragrafo::before{
+    content:"leia isso";
+}
+/* first-letter que pega a primeira letra no meu elemento */
+
+
+p::first-letter{
+    font-size: 200%;
+    color: #8a2be2;
+
+}
+#fist::first-line{
+    background-color: olive;
+}
+    p::selection{
+        color: aliceblue;
+        background-color: midnightblue;
+    }

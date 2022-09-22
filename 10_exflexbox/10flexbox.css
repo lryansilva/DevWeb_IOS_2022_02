@@ -1,0 +1,32 @@
+@charset "utf-8";
+.container {
+ display: flex;
+ align-items:center;
+ flex-flow: column wrap;
+ justify-content: center;
+}
+.container div {
+ border: 1px #ccc solid;
+ padding: 10px;
+ align-items:center;
+}
+.item-box-1 {
+    flex: 4;
+    order: 0;
+    align-items:center;
+   }
+.item-box-2 {
+    flex: 4;
+    order: 0;
+    align-items:center;
+   }
+.item-box-3 {
+    flex: 4;
+    order: 0;
+    align-items:center;
+   }
+.item-box-4 {
+    flex: 4;
+    order: 0;
+    align-items:center;
+   }  
